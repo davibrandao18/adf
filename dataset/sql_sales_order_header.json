@@ -1,5 +1,5 @@
 {
-	"name": "sql_salesOrderHeader",
+	"name": "sql_sales_order_header",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
