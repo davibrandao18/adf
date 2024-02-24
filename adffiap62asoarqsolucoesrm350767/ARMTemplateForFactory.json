@@ -275,7 +275,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/sql_sales_order_header_copy1')]",
+			"name": "[concat(parameters('factoryName'), '/sql_sales_order_detail')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -353,7 +353,10 @@
 						"scale": 3
 					}
 				],
-				"typeProperties": {}
+				"typeProperties": {
+					"schema": "SalesLT",
+					"table": "SalesOrderDetail"
+				}
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/linkedServices/AzureSqlDatabase1')]"
