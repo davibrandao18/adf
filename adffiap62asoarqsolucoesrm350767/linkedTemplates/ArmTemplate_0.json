@@ -243,6 +243,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Customer.csv",
 						"folderPath": "Customer",
 						"fileSystem": "gld"
 					},
@@ -274,6 +275,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Product.csv",
 						"folderPath": "Product",
 						"fileSystem": "gld"
 					},
@@ -305,6 +307,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "SalesOrderDetail.csv",
 						"folderPath": "SalesOrderDetail",
 						"fileSystem": "gld"
 					},
@@ -336,6 +339,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "SalesOrderHeader.csv",
 						"folderPath": "SalesOrderHeader",
 						"fileSystem": "gld"
 					},
@@ -367,6 +371,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Customer.csv",
 						"folderPath": "Customer",
 						"fileSystem": "slv"
 					},
@@ -398,6 +403,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Product.csv",
 						"folderPath": "Product",
 						"fileSystem": "slv"
 					},
@@ -429,6 +435,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "SalesOrderDetail.csv",
 						"folderPath": "SalesOrderDetail",
 						"fileSystem": "slv"
 					},
@@ -460,6 +467,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "SalesOrderHeader.csv",
 						"folderPath": "SalesOrderHeader",
 						"fileSystem": "slv"
 					},
